@@ -160,7 +160,7 @@ footer .separator { height: 1px; width: 50px; background: var(--box-gold); margi
 /* Formulaire à droite */
 .contact-form-wrapper {
     flex: 1.5;
-    background: #fff; /* Fond blanc pour faire ressortir le formulaire */
+    background: #fff; 
     padding: 3rem;
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
@@ -182,7 +182,7 @@ footer .separator { height: 1px; width: 50px; background: var(--box-gold); margi
     width: 100%;
     padding: 12px;
     border: 1px solid #ddd;
-    border-radius: 0; /* Carré pour style minimaliste */
+    border-radius: 0; 
     background: #FAFAFA;
     font-family: var(--font-body);
     font-size: 1rem;
@@ -202,7 +202,7 @@ footer .separator { height: 1px; width: 50px; background: var(--box-gold); margi
     width: 100%;
     border: none;
     cursor: pointer;
-    margin-top: 0; /* Reset marge du bouton global */
+    margin-top: 0; 
 }
 
 /* RESPONSIVE CONTACT */
