@@ -39,7 +39,7 @@ nav ul li a:hover { color: var(--box-gold); }
 
 /* --- 3. HEADER HERO (Images principales) --- */
 header.hero {
-    height: 750px;
+    height: 800px;
     position: relative;
     display: flex;
     align-items: center;
@@ -171,7 +171,7 @@ footer .separator { height: 1px; width: 50px; background: var(--box-gold); margi
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--text-dark);
 }
 
