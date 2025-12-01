@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Savane Photographie</title>
+    <link rel="stylesheet" href="GLOBAL.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">SAVANE PHOTOGRAPHIE</div>
+        <ul>
+            <li><a href="Pagedaccueil.html">Accueil</a></li>
+            <li><a href="Expositiondumoment.html">Exposition du moment</a></li>
+            <li><a href="Notrehistoire.html">Notre Histoire</a></li>
+            <li><a href="PageContact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" style="height: 90vh;">
+        <img src="Image/image11.png" alt="Contact Hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Contactez-nous</h1>
+        </div>
+    </header>
+
+    <section class="contact-container">
+        
+        <div class="contact-info">
+            <h2>Discutons de votre projet</h2>
+            <p>Que ce soit pour une exposition, l'achat d'un tirage ou l'organisation d'un safari photo, notre équipe est à votre écoute.</p>
+            
+            <div class="info-item">
+                <h3>Adresse</h3>
+                <p>12 Avenue de la Savane<br>75000 Paris, France</p>
+            </div>
+            
+            <div class="info-item">
+                <h3>Email & Téléphone</h3>
+                <p>contact@savane-photo.com</p>
+                <p>+33 1 23 45 67 89</p>
+            </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <select id="subject" name="subject">
+                        <option value="reservation">Réservation Safari</option>
+                        <option value="tirage">Achat de Tirage</option>
+                        <option value="presse">Presse & Partenariat</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Comment pouvons-nous vous aider ?" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-gold form-btn">Envoyer le message</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Savane Photographie</p>
+        <div class="separator"></div>
+        <p>&copy; 2025 - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
